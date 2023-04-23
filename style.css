@@ -1,0 +1,145 @@
+
+
+* {
+    
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #222;
+    
+  }
+  
+  header {
+    background-color:aqua;
+    border-radius: 30%;
+    color:#654321;
+    text-align: center;
+  
+  
+  }
+  
+  h1 {
+    margin: 0;
+    
+  }
+
+  h2 {
+    background-color: aqua;
+    border-radius: 350%;
+    padding: 40px;
+    text-align: center;
+    margin: 40px;
+  }
+  h3 {
+    background-color:none;
+    border-radius: 10%;
+    margin: 60px;
+  }
+
+  p{
+    background-color: wheat;
+    border-radius: 20%;
+    padding: 35px;
+  }
+
+/*Nav bar style*/
+  nav {
+    background-color: #333833;
+    padding: 40px;
+    margin: 15px;
+    border-radius: 30%;
+    
+  }
+
+/*Nav Items styles*/
+  a {
+    background-color:palegreen;
+    border-radius: 30%;
+    margin: 40px;
+  }
+
+  a:hover {
+    color: red;
+
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li:hover {
+    margin-right: 10px;
+    transform: translateY(5px);
+  }
+  /*Animal Button styles*/
+
+  .animal-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .animal-button:hover {
+    background-color: #444;
+  }
+  
+  #animals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .animal-card {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    flex-basis: calc(33.33% - 20px);
+  }
+  
+  .animal-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .animal-card h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 50px;
+  }
+  
+  .animal-card p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .species {
+    background-color: aqua;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20%;
+  }
+
+  footer > p{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 30%;
+  }
